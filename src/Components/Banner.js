@@ -8,10 +8,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/bundle";
-import "swiper/css/pagination";
 
 // import required modules
-import { Autoplay, Navigation, Pagination } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 
 const Banner = () => {
   return (
@@ -24,7 +23,7 @@ const Banner = () => {
             disableOnInteraction: false,
           }}
           pagination={true}
-          modules={[Navigation, Autoplay, Pagination]}
+          modules={[Navigation, Autoplay]}
           className="mySwiper h-[641px]] mb-10"
         >
           <SwiperSlide>
