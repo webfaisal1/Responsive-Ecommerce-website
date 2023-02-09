@@ -1,11 +1,10 @@
-import React, { Fragment } from "react";
-import catagories1 from '../asset/images/catagories1.png'
-import catagories2 from '../asset/images/catagories2.png'
-import catagories3 from '../asset/images/catagories3.png'
-import catagories4 from '../asset/images/catagories4.png'
+import React, { Fragment } from 'react';
+import arrival1 from "../asset/images/arrival1.png";
+import arrival2 from "../asset/images/arrival2.png";
+import arrival3 from "../asset/images/arrival3.png";
+import arrival4 from "../asset/images/arrival4.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -15,15 +14,15 @@ import "swiper/css/bundle";
 // import required modules
 import { Navigation } from "swiper";
 
-const PopularCategories = () => {
+const NewArrival = () => {
   return (
     <Fragment>
-      <section className="my-[100px]" >
+      <section className="my-[100px]">
         <h1 className="text-[48px] font-bold text-[#212B36] text-center ">
-          Popular Categories
+          New Arrival
         </h1>
         <h4 className=" text-[#48545E] font-normal text-[24px] text-center mb-[50px] ">
-          Shop the product of your choice from the popular category
+          Shop our new arrivals from popular brands
         </h4>
 
         <section className="py-[34px] px-[38px] border border-[#E9E9E9] ">
@@ -54,7 +53,7 @@ const PopularCategories = () => {
                 <div>
                   <img
                     class=" bg-[#6373813a] rounded-[6px] "
-                    src={catagories1}
+                    src={arrival1}
                     alt="avatar"
                   />
                 </div>
@@ -72,7 +71,7 @@ const PopularCategories = () => {
               <div>
                 <img
                   class=" bg-[#6373813a] rounded-[6px] "
-                  src={catagories2}
+                  src={arrival2}
                   alt="avatar"
                 />
 
@@ -90,7 +89,7 @@ const PopularCategories = () => {
               <div>
                 <img
                   class=" bg-[#6373813a] rounded-[6px] "
-                  src={catagories3}
+                  src={arrival3}
                   alt="avatar"
                 />
 
@@ -108,7 +107,7 @@ const PopularCategories = () => {
               <div>
                 <img
                   class=" bg-[#6373813a] rounded-[6px] "
-                  src={catagories4}
+                  src={arrival1}
                   alt="avatar"
                 />
 
@@ -126,7 +125,7 @@ const PopularCategories = () => {
               <div>
                 <img
                   class=" bg-[#6373813a] rounded-[6px] "
-                  src={catagories4}
+                  src={arrival4}
                   alt="avatar"
                 />
 
@@ -144,7 +143,7 @@ const PopularCategories = () => {
               <div>
                 <img
                   class=" bg-[#6373813a] rounded-[6px] "
-                  src={catagories2}
+                  src={arrival2}
                   alt="avatar"
                 />
 
@@ -165,4 +164,4 @@ const PopularCategories = () => {
   );
 };
 
-export default PopularCategories;
+export default NewArrival;
