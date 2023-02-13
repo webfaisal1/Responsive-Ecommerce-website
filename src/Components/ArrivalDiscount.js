@@ -5,7 +5,7 @@ import bg2 from "../asset/images/arrivalbg2.png";
 const ArrivalDiscount = () => {
   return (
     <Fragment>
-      <section className="flex items-center gap-[35px] ">
+      <section className="flex items-center gap-[35px] my-[100px] ">
         <div
           class="bg-cover bg-center bg-no-repeat h-full w-full"
           style={{

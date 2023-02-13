@@ -2,8 +2,10 @@ import React, { Fragment } from 'react';
 import ArrivalDiscount from '../Components/ArrivalDiscount';
 import Banner from '../Components/Banner';
 import BestSales from '../Components/BestSales';
+import CategoriesDiscount from '../Components/CategoriesDiscount';
 import LatestBlogs from '../Components/LatestBlogs';
 import NewArrival from '../Components/NewArrival';
+import NewsLetter from '../Components/NewsLetter';
 import PopularCategories from '../Components/PopularCategories';
 
 const Home = () => {
@@ -12,10 +14,12 @@ const Home = () => {
       <section className='container' >
         <Banner />
         <PopularCategories/>
+        {/* <CategoriesDiscount/> */}
         <NewArrival/>
         <ArrivalDiscount/>
         <BestSales/>
         <LatestBlogs/>
+        <NewsLetter/>
       </section>
     </Fragment>
   );

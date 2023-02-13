@@ -12,9 +12,8 @@ const LatestBlogs = () => {
         <div className="grid grid-cols-3 gap-[32px] mt-[50px] ">
           {LatestBlogsData.map((product, i) => (
             <div key={product.id}>
-              
-                <img className="rounded-[6px] " src={product.img} alt="" />
-              
+              <img className="rounded-[6px] " src={product.img} alt="" />
+
               <div className="text-center mt-[20px] ">
                 <h2 className=" text-[20px] font-semibold text-[#212B36]  ">
                   {product.name}
