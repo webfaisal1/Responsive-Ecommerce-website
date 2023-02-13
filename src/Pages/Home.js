@@ -7,6 +7,7 @@ import LatestBlogs from '../Components/LatestBlogs';
 import NewArrival from '../Components/NewArrival';
 import NewsLetter from '../Components/NewsLetter';
 import PopularCategories from '../Components/PopularCategories';
+import Footer from '../Shared/Footer';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <BestSales/>
         <LatestBlogs/>
         <NewsLetter/>
+        <Footer/>
       </section>
     </Fragment>
   );
